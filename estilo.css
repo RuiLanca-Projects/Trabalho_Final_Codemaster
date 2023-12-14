@@ -1,0 +1,1282 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Fonts/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('Fonts/IBMPlexSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('Fonts/IBMPlexSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('Fonts/IBMPlexSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+
+    max-width: 1280px;
+    min-width: 360px;
+    font-family: 'IBM Plex Sans';
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+
+
+}
+
+@media all and (max-width: 998px){
+    header{
+        background-color: #e6e5e3;
+        margin-right: -12px;
+        
+        
+    }
+
+}
+
+.carousel-container-fluid {
+    margin-top: -195px;
+
+}
+
+
+
+.titulo_e_nav {
+    z-index: 1;
+
+}
+
+hr {
+    margin: auto;
+    width: 90vw;
+    background-color: #212529;
+    
+}
+
+#hr1 {
+    
+    width: 92%;
+    background-color: #707070;
+    
+
+
+}
+#hr1-mobile {
+    
+    width: 90%;
+    background-color: #707070;
+    margin: auto;
+    
+    
+
+
+}
+#hr-mobile {
+    
+    width: 90%;
+    background-color: #707070;
+    height: 2px;
+    margin: auto;
+
+
+}
+
+
+
+#titulo {
+    padding: 8px;
+    font-family: 'IBM Plex Sans';
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+
+#home {
+    color: #B47D33;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #B47D33;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-toggler{
+
+    box-shadow: none !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #B47D33; 
+}
+
+#hover-drop{
+    font-family: 'IBM Plex Sans';
+    font-weight: lighter;
+    font-size: 13px;
+    color: #4D4D4D;
+    background-color: white;
+    
+   
+}
+#hover-drop:hover{
+    font-family: 'IBM Plex Sans';
+    font-weight: lighter;
+    font-size: 13px;
+    color: #B17E3B;
+    background-color: white;
+    
+   
+}
+
+.carousel-inner{
+    height: auto;
+}
+
+
+.carousel-container-fluid .px-0 .d-lg-block .d-none img{
+    max-height: 730px;
+}
+
+
+
+.carousel-caption {
+    top: 35%;
+    color: #4D4D4D;
+    text-align: left;
+    width: 40%;
+    
+   
+
+
+
+}
+
+.carousel-caption h2 {
+    color: #4D4D4D;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    
+}
+
+.carousel-caption h3 {
+    color: #B47D33;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.carousel-caption {
+    font-family: 'IBM Plex Sans';
+    font-weight: lighter;
+    font-size: 13px;
+    color: #4D4D4D;
+    text-align: left;
+}
+
+.carousel-caption p {
+    font-family: 'IBM Plex Sans';
+    font-weight: lighter;
+    font-size: 0.75rem;
+    color: #4D4D4D;
+}
+
+
+
+.carousel-indicators {
+  
+    display: flex;
+    justify-content: flex-start;   
+    width: 25%;
+    gap: 10px;
+    bottom: 80px;
+    
+ 
+    
+   
+   
+}
+
+@media all and (max-width:998px){
+    .carousel-indicators {
+        
+        display: flex;
+        justify-content: flex-start;   
+        width: 25%;
+        gap: 10px;
+        left: -60px;
+        
+       
+    }
+}
+@media all and (max-width:800px){
+    .carousel-indicators {
+        
+        display: flex;
+        justify-content: flex-start;   
+        width: 25%;
+        gap: 10px;
+        left: -50px;
+        
+       
+    }
+}
+@media all and (max-width:680px){
+    .carousel-indicators {
+        
+        display: flex;
+        justify-content: flex-start;   
+        width: 25%;
+        gap: 10px;
+        left: -40px;
+        
+       
+    }
+}
+@media all and (max-width:605px){
+    .carousel-indicators {
+        
+        display: flex;
+        justify-content: flex-start;   
+        width: 50%;
+        gap: 10px;
+        left: -30px;
+        bottom: 50px;
+        
+       
+    }
+
+ 
+
+
+}
+@media all and (max-width:405px){
+    .carousel-indicators {
+        
+        display: flex;
+        justify-content: flex-start;   
+        width: 50%;
+        gap: 10px;
+        left: -20px;
+        bottom: 35px;
+        margin-bottom: 15px;
+        
+       
+    }
+ 
+}
+@media all and (max-width:377px){
+    .carousel-indicators {
+         
+        display: flex;
+        justify-content: flex-start;   
+        width: 55%;
+        gap: 10px;
+        margin-left: 60px;
+       
+        
+       
+    }
+
+
+
+    }
+
+
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    bottom: 60px;
+    border: 1px solid transparent;
+    background-image: url("Img/bolabanner1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.carousel .carousel-indicators button:hover {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    bottom: 60px;
+    border: 1px solid #4D4D4D;
+    background-image: url("Img/bolabanner2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.carousel .carousel-indicators button.active{
+    background-color: #4D4D4D !important;
+}
+
+.carousel-container-fluid{
+    width: 100%;
+   
+   
+   
+  
+}
+
+#img_livro1{
+    margin-bottom: 40px;
+}
+
+#img_livro{
+   
+    width: 360px;
+    margin: auto;
+    margin-top: 43px;
+
+}
+
+
+#img_livro-mobile{   
+    width: 360px;
+    margin: auto;
+    margin-top: 37px; 
+}
+
+
+
+
+  .card, .card-header, .card-body, .card-footer{
+    border-radius:0px !important;
+}
+
+
+.card > img{
+    max-height: 376px;
+
+}
+
+
+
+
+
+#bem-vindo {
+
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+    margin-right: -12px;
+    margin-top: -60px;
+    width: 95%;
+    line-height: 1.5;
+}
+
+
+@media all and (max-width:768px){
+    #bem-vindo {
+        background-color: white;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        width: 100%; 
+       
+    }
+
+    .navbar .navbar-nav{
+        background-color: white;   
+        position: fixed;
+        top: 92px;
+        width: 100%; 
+        left: 0;
+        height: 250px;
+        line-height: 0.8em;
+        padding: 25px;        
+        transition-duration: 0.5s;
+        
+    }
+
+    #botao-menu{
+    
+        background-image: url("Img/menu.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        width: 35px;
+        height: 29px;  
+        margin-top: -5px;
+        
+       
+        
+    }
+
+    #img_livro-mobile{   
+        width: 360px;
+        margin: auto;
+        margin-top: 67px; 
+    }
+
+
+    
+
+ 
+}
+
+
+#bem-vindo-mobile {
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);  
+}
+
+#img-bem-vindo {
+    width: 312px;
+    height: 396px;    
+    box-shadow: 5px 5px 5px 1px rgb(0 0 0 / 0.2);
+}
+
+#img-bem-vindo2 {
+    width: 300px;
+    height: auto;
+    
+    
+   
+    
+}
+
+.caixa-ultimos-livros{
+    margin-left: 80px;
+}
+@media all and (max-width:768px){
+    #img-bem-vindo2 {
+        width: 312px;             
+        margin-top: 60px;        
+        
+    }
+
+    #img-bem-vindo{
+        margin-top: 40px;
+    }
+
+  
+}
+
+
+
+@media all and (max-width:945px){
+    .titulo-bem-vindo{       
+        margin-bottom: 40px;
+    }
+
+ 
+}
+
+
+
+@media all and (max-width: 377px){
+    #img-bem-vindo {
+        width:100%;        
+        box-shadow: 5px 5px 5px 1px rgb(0 0 0 / 0.2);
+        margin-top: 60px;
+
+        
+    }
+
+    #bem-vindo{
+        margin-left: 0px;
+    }
+
+ 
+
+    #x{
+        width: 300px;
+        
+    }
+
+
+    .titulo-bem-vindo{      
+       width:100%;             
+       
+    }
+
+    #carousel-mobile-row{
+        width:377px;
+    }
+
+    .titulo_e_nav{
+        width:377px;
+    }
+
+    .caixa-ultimos-livros{
+        margin-left: 30px;
+    }
+
+
+   
+
+    .col-12{
+        width:377px;
+    }
+
+    #carousel-item_mobile{
+        width: 377px;
+    }
+   
+   
+
+    header{
+        width: 100%;
+    }
+
+
+
+    .bem-vindo.texto{
+        
+        width: 270px;
+        line-height: 1.5;
+    }
+
+    .botao.bem-vindo{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }   
+
+
+
+    .col-12.d-flex.justify-content-center.gap-5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    max-width: 360px;
+   }
+
+   .row-card{
+    max-width: 360px;
+   }
+
+   .caixa-nav-baixo{
+    display: none;
+   }
+
+   .caixa-contactos{
+    display: none;
+   }
+
+   .caixa-contactos-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .navbar .navbar-nav{
+    background-color: white;   
+    position: fixed;          
+    width: 100% !important;
+    height: 250px;
+    line-height: 0.8em;
+    padding: 25px;   
+    transition-duration: 0.5s;
+    
+}
+
+
+
+}
+
+@media all and (max-width:425px){
+    .titulo-bem-vindo{           
+       
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;      
+        
+     }
+}
+
+#T1 {
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
+    font-style: 25px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    margin-top: 30px;
+    height: 40px;
+
+}
+
+#P{
+   
+    font-family: 'IBM Plex Sans'!important;
+    font-weight: lighter !important;
+    font-size: 13px !important;
+    color: #4D4D4D !important;  
+   
+}
+p{
+   
+    font-family: 'IBM Plex Sans'!important;
+    font-weight: lighter !important;
+    font-size: 13px !important;
+    color: #4D4D4D !important;  
+   
+}
+
+
+
+
+#P-politica {
+    font-family: 'IBM Plex Sans';
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 13px;
+    color: #4D4D4D;
+    margin-top: -28px;
+    margin-bottom: 70px;
+}
+
+
+#texto_completo{
+    display: none;
+}
+
+#texto_abreviado{
+    display: inline;
+}
+
+
+#btn-Saber_Mais {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 15px;
+    background-image: url("Img/vermais.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: none;
+
+
+}
+#btn-Saber_Mais:hover {
+    width: 100px;
+    height: 30px;
+    padding: 15px;
+    background-image: url("Img/vermais-cinza.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: none;
+
+
+}
+#btn-Saber_Mais_autor {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 15px;    
+    color: white;
+    border: none;
+    background-color: #B47D33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'IBM Plex Sans';
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+
+}
+
+
+
+
+.card {
+    box-shadow: 3px 5px 5px 2px rgb(0 0 0 / 0.2);
+}
+
+#T1-Main {
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
+    font-style: 25px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+
+}
+
+#T1-Footer {
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
+    font-style: 25px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+
+}
+
+#p_card {
+    color: #B47D33;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#contactos-titulo {
+    color: #B17E3B;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+#contactos {
+    color: #4D4D4D;
+    text-transform: uppercase;
+
+
+}
+
+
+#morada {
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+#siga {
+
+    color: #4D4D4D;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+
+
+#contactos-conteudo {
+    font-family: 'IBM Plex Sans';
+    font-weight: lighter;
+    font-size: 13px;
+    color: #4D4D4D;  
+
+}
+
+#btn-1 {
+    background-image: url("Social/instagram1.svg");
+    width: 37px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#btn-1:hover {
+    background-image: url("Social/instagram2.svg");
+    width: 37px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#btn-2 {
+    background-image: url("Social/facebook1.svg");
+    width: 37px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#btn-2:hover {
+    background-image: url("Social/facebook2.svg");
+    width: 37px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#btn-3 {
+    background-image: url("Social/linkedin1.svg");
+    width: 37px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#btn-3:hover {
+    background-image: url("Social/linkedin2.svg");
+    width: 37px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#ralc{
+    position: relative;
+    right: 30px;
+}
+
+
+#caixa-livro{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+    width: 95%;  
+    height: auto;
+    margin-top: -60px;
+    margin-left: 88px;
+   
+   
+}
+#caixa-livro2{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+    width: 95%;  
+    height: auto;
+    margin-top: -60px;
+    margin-left: 76px;
+   
+   
+}
+
+@media only screen and (max-width: 767px){
+    #caixa-livro{
+        background-color: white;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+        position: relative;      
+        width: 100%; 
+        height: 116px; 
+        top: 60px;
+        right: 90px;
+        padding: 0px 20px;     
+       
+    }
+    #caixa-livro2{
+        background-color: white;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+        position: relative;      
+        width: 100%; 
+        height: 180px; 
+        top: 60px;
+        right: 75px;
+        padding: 0px 20px;   
+        margin-bottom: 30px;  
+       
+    }
+}
+
+
+
+#titulo-livro{
+   
+    color: #B47D33;
+    font-size: 18px;
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;   
+    text-transform: uppercase;
+    
+}
+
+#capa-livro{
+    width: 350px;
+    height: 445px;
+}
+
+#btn-voltar {
+    width: 120px;
+    height: 30px;
+    padding: 15px;
+    margin-left: 10px;    
+    background-image: url("Img/voltar1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: none;
+
+
+}
+#btn-voltar:hover {
+    width: 120px;
+    height: 30px;
+    padding: 15px;
+    margin-left: 10px;   
+    background-image: url("Img/voltar2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: none;
+
+
+}
+
+
+
+.container-livro{
+    margin-bottom: 50px;
+}
+
+.page-link{
+    border: none;
+    color: #4D4D4D; 
+    background-color: transparent !important; 
+         
+}
+.page-link:hover{
+    border: none;
+    color: #B17E3B;  
+         
+}
+
+#seta-esq{
+    width: 17px;
+    height: 30px;
+    margin:0px 45px 0px 0px; 
+    background-color: transparent!important;
+    background-image: url("Img/setaesquerda1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    transition: 0.3s;
+}
+
+
+#seta-esq:hover{
+    width: 17px;
+    height: 30px;
+    margin:0px 45px 0px 0px; 
+    background-color: transparent!important;
+    background-image: url("Img/setaesquerda2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    transition: 0.3s;
+}
+
+#seta-drt{
+    width: 17px;
+    height: 30px;
+    margin: 0px 0px 0px 45px;
+    background-color: transparent !important; 
+    background-image: url("Img/setadireita1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    transition: 0.3s;
+}
+#seta-drt:hover{
+    width: 17px;
+    height: 30px;
+    margin: 0px 0px 0px 45px; 
+    background-color: transparent !important;
+    background-image: url("Img/setadireita2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    transition: 0.3s;
+    
+}
+
+
+
+.dourado{
+    background-color: transparent;
+    color: #B17E3B !important;
+    
+  }
+  #numbotao {
+    background-color: transparent;    
+    border: none;
+    color: #4D4D4D; 
+    background-color: transparent !important;     
+    font-size: 27px;
+    font-weight:600;
+    padding: 10px;
+    
+  }
+
+  #numbotao:hover{
+    border: none;
+    color: #B17E3B; 
+  }
+  
+
+  #linha-imprensa{
+   
+    height: 2px;
+    width: 100%;
+    background-color: #A97339!important;
+    border: none;
+  }
+  #linha-imprensa1{
+   
+    height: 1px;
+    width: 85%;
+    background-color: #A97339!important;
+    border: none;
+  }
+
+.caixa-imprensa{
+    box-shadow: 0 6px 3px -2px rgb(0 0 0 / 0.2);
+    border:none;
+}
+
+#publi{
+    padding-right: 25px;
+}
+#publi1{
+   padding-right: 35px;
+}
+
+
+
+@media all and (max-width:935px){
+
+    #image-imprensa{
+        width: 691px;
+        height: 400px;
+        
+        
+    }
+
+}
+@media all and (max-width:935px){
+
+    #image-imprensa{
+        width: 591px;
+        height: 300px;
+    
+        
+    }
+
+}
+@media all and (max-width:455px){
+
+    #image-imprensa{
+        width: 491px;
+        height: 200px;
+        
+        
+    }
+
+}
+@media all and (max-width:377px){
+
+    #image-imprensa{
+        width: 300px;
+        height: 150px;        
+        margin-right: 10px;
+        
+        
+    }
+
+    #P-escuro{
+        font-size: 0.60rem;
+        margin-right: -20px;
+    }
+
+    #linha-imprensa{
+      width: 100%;
+    }
+
+    .caixa-imprensa{
+        text-align: center;
+        
+    }
+
+    .navbar .navbar-toggler{
+        margin: auto;        
+        margin-right: 85px !important;        
+        position: relative; 
+        margin-top: 43px;    
+
+       
+    } 
+
+    #titulo{
+        margin-left: 60px !important;
+    }
+
+    #hr1{
+        width: 95%;       
+        margin-left: 28px;
+    }
+  
+    #botao-menu{
+        margin-right: 25px !important;
+    }
+    
+ 
+
+
+}
+
+
+
+@media all and (max-width:767px){
+    .container-fluid .lançamento{
+        width: 100%;
+             
+        margin-top: 60px;
+        text-align: left;
+    }
+}
+#lançamento1{
+   margin-left: 63px;
+}
+
+.texto-velho{
+    margin-left: -18px;
+    margin-right: -18px;
+}
+
+#titulo-contactos{
+    font-family: 'IBM Plex Sans';
+    font-weight:bolder;
+    font-size: 13px;
+    color: #B47D33;
+}
+
+#hr-contactos{
+    width: 10%;
+    height: 1px;
+    background-color: #707070;
+   
+}
+
+@media all and (max-width: 450px) {
+    #titulo {
+        font-size: 24px;
+        margin: auto; 
+        padding-top: 55px; 
+        margin-left: 9px;
+        padding-bottom: 20px;     
+
+    }
+
+    .navbar .navbar-toggler{
+        margin: auto;        
+        margin-right: 25px;        
+        position: relative; 
+        margin-top: 43px;    
+
+       
+    } 
+
+    .navbar .navbar-nav{
+        background-color: white;   
+        position: fixed;
+        top: 130px;
+        width: 100%; 
+        left: 0;
+        height: 250px;
+        line-height: 0.8em;
+        padding: 25px;        
+        transition-duration: 0.5s;
+        
+    }
+
+
+}
+
+#botao-menu{
+    
+    background-image: url("Img/menu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 35px;
+    height: 29px;  
+    
+   
+    
+}
+
+
+
+
+.navbar-toggler{
+    border: none;    
+    width: 35px;
+    height: 29px;
+}
+
+
+.cabecalho-legendas-mobile{
+    position: absolute;
+    width: 85%;
+    top: 400px;    
+    left: 7.5%;
+    padding: 0px;
+    text-align: left;
+    bottom: 20px ;
+}
+
+#nov-mobile{
+    color: #B47D33;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: -50px;
+
+}
+
+#titulo-legenda-mobile{
+    color: #4D4D4D;
+    font-size: 25px;
+    font-weight: lighter;
+    text-transform: uppercase
+}
+
+
