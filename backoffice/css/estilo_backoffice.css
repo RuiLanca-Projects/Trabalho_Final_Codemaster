@@ -1,0 +1,18 @@
+body{
+    background-color: gainsboro;
+}
+
+input[type="text"], textarea {
+    width:70%;
+    
+}
+
+table, th, tr, td{
+    border-collapse: collapse;
+    border: 1px solid rgb(134, 125, 125);
+    padding: 10px;
+    
+}
+
+
+

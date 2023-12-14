@@ -1,0 +1,71 @@
+<?php
+
+$form = isset($_GET["observacao"]) && isset($_GET["titulo"]) && isset($_GET["texto"]) && isset($_GET["imagem_desktop"]) && isset($_GET["imagem_mobile"]) && isset($_GET["link_saber_mais"]);
+
+if($form){
+
+    $observacao = $_GET["observacao"];
+    $titulo = $_GET["titulo"];
+    $texto = $_GET["texto"];
+    $imagem_desktop = $_GET["imagem_desktop"];
+    $imagem_mobile = $_GET["imagem_mobile"];
+    $link_saber_mais = $_GET["link_saber_mais"];
+
+    iduSQL("INSERT INTO carousel (observacao, titulo, texto, imagem_desktop, imagem_mobile, link_saber_mais) VALUES ('$observacao', '$titulo', '$texto', '$imagem_desktop', '$imagem_mobile', '$link_saber_mais')");
+    header("Location: carousel.php");
+    exit() ;
+}
+
+
+?>
+
+
+<main class="container">
+   <div class="row mx-auto bg-light border rounded-2 mt-3 w-75 p-3 d-flex justify-content-center">
+        <div class="col-10 p-3 ">
+            <h3 class="text-center">Novo Carousel</h3>
+           
+        </div>
+
+        <div class="row text-center">
+            <form action="" class="col-12">
+                <label for="observacao">Observação</label>
+                <br>
+                <input type="text" name="observacao" required>
+                <br><br>                
+                <label for="titulo">Titulo</label>
+                <br>
+                <input type="text" name="titulo" required>
+                <br><br>                
+                <label for="texto">Texto</label>
+                <br>
+                <textarea name="texto" id="editor" cols="80" rows="10"></textarea>
+                <script>
+                    ClassicEditor
+                        .create( document.querySelector( '#editor' ) )
+                        .catch( error => {
+                            console.error( error );
+                        } );
+                </script>
+
+                <br><br>                
+                <label for="imagem_desktop">Imagem desktop</label>
+                <br>                
+                <a href="../filemanager/tinyfilemanager.php" target="_blank"><button type="button">Gestor de ficheiros</button></a>
+                <br><br>
+                <input type="text" name="imagem_desktop" required>
+                <br><br>                
+                <label for="imagem mobile">Imagem mobile</label>
+                <br>
+                <input type="text" name="imagem_mobile" required>
+                <br><br>                
+                <label for="link_saber_mais">Link Saber Mais</label>
+                <br>
+                <input type="text" name="link_saber_mais" required>
+                <br><br>                
+                <input type="submit" value="Guardar">
+            </form>
+        </div>
+   </div>
+   
+</main>
